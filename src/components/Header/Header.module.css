@@ -1,0 +1,10 @@
+.header {
+  width: 15%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.header__logo_img {
+  width: 100%;
+}

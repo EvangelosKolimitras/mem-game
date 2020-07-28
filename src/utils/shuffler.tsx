@@ -1,5 +1,3 @@
-import { faShieldAlt } from "@fortawesome/free-solid-svg-icons";
-
 const shuffle = (arr: any[]) => {
   let currentIndex: number = arr.length;
   let temporaryValue;

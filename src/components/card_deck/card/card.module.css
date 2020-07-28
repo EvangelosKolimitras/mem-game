@@ -5,14 +5,19 @@
 
   margin: 0.3%;
 
-  background: url("./img/cards.jpg");
+  background: linear-gradient(
+    17deg,
+    rgba(63, 73, 84, 1) 0%,
+    rgba(32, 57, 68, 1) 33%,
+    rgba(18, 33, 42, 1) 100%
+  );
   background-position: center;
   background-size: cover;
-  color: #e75e5e;
+  color: #5ed7e7;
 
   border-radius: 0.8rem;
   box-shadow: 0.5rem 0.2rem 2rem 0 #212121;
-
+  list-style-type: none;
   cursor: pointer;
 }
 
@@ -20,6 +25,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
+
   transform: translate(-50%, -50%);
 }
 

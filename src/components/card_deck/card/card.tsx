@@ -1,8 +1,5 @@
 import React from "react";
-import {
-  FontAwesomeIcon,
-  FontAwesomeIconProps,
-} from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from "./card.module.css";
 import Icons from "./icons/icons";
 

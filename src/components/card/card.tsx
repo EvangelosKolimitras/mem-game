@@ -15,13 +15,14 @@ import {
   faBicycle,
 } from "@fortawesome/free-solid-svg-icons";
 import styles from "./card.module.css";
+import shuffle from "../../utils/shuffler";
 
 type IconItems = {
   i: IconDefinition;
   type: string;
 }[];
 
-const I: IconItems = [
+const I: IconItems = shuffle([
   { i: faGem, type: "gem" },
   { i: faGem, type: "gem" },
   { i: faPaperPlane, type: "paper" },
@@ -38,7 +39,7 @@ const I: IconItems = [
   { i: faBomb, type: "bomb" },
   { i: faBicycle, type: "bicycle" },
   { i: faBicycle, type: "bicycle" },
-];
+]);
 
 export default function Cards() {
   return (
